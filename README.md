@@ -10,6 +10,9 @@
 - course_remain - 課程選修人數查詢
 - phonebook - 東海聯絡簿
 
+### Log
+- [Log 紀錄](./Log.md)
+
 ### 參考資源
 - [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api)
 - [node-telegram-bot-api-tutorial](https://github.com/hosein2398/node-telegram-bot-api-tutorial)
