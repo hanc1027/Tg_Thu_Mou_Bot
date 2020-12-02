@@ -27,7 +27,7 @@ function autoDeleteCmdMsg(bot, msg) {
     setTimeout(() => { bot.deleteMessage(msg.chat.id, msg.message_id) }, 3000)
     setTimeout(() => {
         bot.deleteMessage(msg.chat.id, msg.message_id + 1)
-    }, 5000)
+    }, 5002)
 }
 
 // Commands
