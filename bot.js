@@ -6,10 +6,10 @@ const privateManager = require('./private/index')
 const TelegramBot = require('node-telegram-bot-api');
 const other = require('./other_functions/other');
 
-const token = process.env.TOKEN;
+const token = process.env.THU_MOU_TGBOT_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
-const Deploy_Group_ID = process.env.Group_ID 
+const Deploy_Group_ID = process.env.THU_MOU_TGBOT_Group_ID 
 
 //使用Long Polling的方式與Telegram伺服器建立連線
 

@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node .",
     "deploy": "./deploy.sh",
-    "dev_commit":"./dev_commit.sh",
-    "logs":"heroku logs -t"
+    "dev_commit": "./dev_commit.sh",
+    "logs": "heroku logs -t"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,8 @@
     "express": "^4.17.1",
     "node-telegram-bot-api": "^0.50.0",
     "request": "^2.88.2"
+  },
+  "repository": {
+    "url": "https://github.com/hanc1027/Tg_Thu_Mou_Bot.git"
   }
 }
