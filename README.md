@@ -11,11 +11,12 @@
 - phonebook - 東海聯絡簿
 
 ### Demo
-- [Video](assets/demo.MP4)
+- Video
+  - <img src="assets/demo.gif" width="200"> 
 - ScreenShot
-- <img src="assets/01.PNG" width="200"> <img src="assets/02.PNG" width="200">
-- <img src="assets/03.PNG" width="200"> <img src="assets/04.PNG" width="200">
-- <img src="assets/05.PNG" width="200">
+  - <img src="assets/01.PNG" width="200"> <img src="assets/02.PNG" width="200">
+  - <img src="assets/03.PNG" width="200"> <img src="assets/04.PNG" width="200">
+  - <img src="assets/05.PNG" width="200">
 
 ### Log
 - [Log 紀錄](./Docs/Log.md)
