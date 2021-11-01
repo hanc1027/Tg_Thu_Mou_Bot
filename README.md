@@ -13,9 +13,9 @@
 ### Demo
 - [Video](assets/demo.MP4)
 - ScreenShot
-  - ![](assets/01.PNG#100x50)![](assets/02.PNG)
-  - ![](assets/03.PNG)![](assets/04.PNG)
-  - ![](assets/05.PNG)
+- <img src="assets/01.PNG" width="200"> <img src="assets/02.PNG" width="200">
+- <img src="assets/03.PNG" width="200"> <img src="assets/04.PNG" width="200">
+- <img src="assets/05.PNG" width="200">
 
 ### Log
 - [Log 紀錄](./Docs/Log.md)
@@ -25,9 +25,3 @@
 - [node-telegram-bot-api-tutorial](https://github.com/hosein2398/node-telegram-bot-api-tutorial)
 - [Telegram Bot API 2.0](https://core.telegram.org/bots/2-0-intro)
 
-
-<style type="text/css">
-    img{
-        width: 180px;
-    }
-</style>
