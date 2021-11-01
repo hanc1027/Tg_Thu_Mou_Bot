@@ -2,8 +2,7 @@
 const request = require('request')
 const cheerio = require('cheerio')
 
-// const groupID = process.env.Group_ID
-const groupID = "495732162"
+const groupID = process.env.Group_ID
 
 let newsWebList = [
     {title: "東大新聞",url: "https://www.thu.edu.tw/web/news/news.php?cid=8"},
@@ -51,7 +50,7 @@ module.exports = {
                         url: ""
                     }
 
-                    if (this.isTodayNews(newsDate[i].next.data)) {
+                    if (!this.isTodayNews(newsDate[i].next.data)) {
                         let date = newsDate[i].next.data.split("\t")
                         aNew.date = date[6]
 
