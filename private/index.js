@@ -53,8 +53,8 @@ module.exports = {
             var options = {
                 reply_markup: {
                     inline_keyboard: [
-                        [{ text: "上行時刻表🕒", callback_data: up_route.url }],
-                        [{ text: "下行時刻表🕘", callback_data: down_route.url }],
+                        [{ text: "上行時刻表🕒", url: up_route.url }],
+                        [{ text: "下行時刻表🕘", url: down_route.url }],
                         [{ text: "關閉❌", callback_data: "close" }]
                     ]
                 }
