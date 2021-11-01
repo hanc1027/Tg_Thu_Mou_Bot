@@ -26,11 +26,11 @@ module.exports = {
             let up_route = {
                 title: "",
                 sopts: [],
-                url: ""
+                url: "https://busservice.cc.paas.ithu.tw/timetable/2/zh_TW"
             }, down_route = {
                 title: "",
                 sopts: [],
-                url: ""
+                url: "https://busservice.cc.paas.ithu.tw/timetable/1/zh_TW"
             }
             // 上行
             up_route.title = panelHeading[0].prev.data + panelHeading[0].next.data
@@ -38,14 +38,12 @@ module.exports = {
             for (var i = 1; i < panelBody[0].children.length - 1; i++) {
                 up_route.sopts.push(panelBody[0].children[i].children[0].data);
             }
-            up_route.url = panelBody[1].attribs.href
 
             //下行
             down_route.title = panelHeading[1].prev.data + panelHeading[1].next.data
             for (var i = 1; i < panelBody[2].children.length - 1; i++) {
                 down_route.sopts.push(panelBody[2].children[i].children[0].data);
             }
-            down_route.url = panelBody[3].attribs.href
 
             // 文字加點標情符號
             up_route.title = up_route.title.replace("往", "👉")
