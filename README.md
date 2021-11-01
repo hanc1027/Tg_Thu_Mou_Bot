@@ -1,5 +1,5 @@
 ## Telegram Bot - 東海大學哞🤖️
-- [網址](https://t.me/THU_mou_bot)
+- [網址](https://t.me/thumoubot)
 
 ### 目前功能
 - ping - 針測機器人是否活著
