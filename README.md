@@ -10,6 +10,13 @@
 - course_remain - 課程選修人數查詢
 - phonebook - 東海聯絡簿
 
+### Demo
+- [Video](assets/demo.MP4)
+- ScreenShot
+  - ![](assets/01.PNG#100x50)![](assets/02.PNG)
+  - ![](assets/03.PNG)![](assets/04.PNG)
+  - ![](assets/05.PNG)
+
 ### Log
 - [Log 紀錄](./Log.md)
 
@@ -17,3 +24,10 @@
 - [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api)
 - [node-telegram-bot-api-tutorial](https://github.com/hosein2398/node-telegram-bot-api-tutorial)
 - [Telegram Bot API 2.0](https://core.telegram.org/bots/2-0-intro)
+
+
+<style type="text/css">
+    img{
+        width: 180px;
+    }
+</style>
