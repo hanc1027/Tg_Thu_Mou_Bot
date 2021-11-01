@@ -2,7 +2,8 @@
 const request = require('request')
 const cheerio = require('cheerio')
 
-const groupID = process.env.Group_ID
+// const groupID = process.env.Group_ID
+const groupID = "495732162"
 
 let newsWebList = [
     {title: "東大新聞",url: "https://www.thu.edu.tw/web/news/news.php?cid=8"},
@@ -22,7 +23,6 @@ module.exports = {
         }
     },
     getThuNews(bot) {
-        groupID = "495732162"
         let isSendTodayNewsTitle = false
         let haveNews = false
         bot.sendMessage(groupID,"爬取東海新聞中…")
