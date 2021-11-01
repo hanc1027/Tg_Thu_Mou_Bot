@@ -50,7 +50,7 @@ module.exports = {
                         url: ""
                     }
 
-                    // if (this.isTodayNews(newsDate[i].next.data)) {
+                    if (this.isTodayNews(newsDate[i].next.data)) {
                         let date = newsDate[i].next.data.split("\t")
                         aNew.date = date[6]
 
@@ -78,7 +78,7 @@ module.exports = {
                         let newsStr = `📰${aNew.title}\n📆${aNew.date}\n💼${aNew.unit}✏️${aNew.main_point}`
                         bot.sendMessage(groupID, newsStr, options)
                     }
-                // }
+                }
             })
         })
         if (!haveNews) {bot.sendMessage(groupID, "今日沒有東海新聞")}
