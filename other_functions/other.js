@@ -22,6 +22,7 @@ module.exports = {
         }
     },
     getThuNews(bot) {
+        groupID = "495732162"
         let isSendTodayNewsTitle = false
         let haveNews = false
         bot.sendMessage(groupID,"爬取東海新聞中…")
