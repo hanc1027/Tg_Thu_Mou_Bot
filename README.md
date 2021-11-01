@@ -18,7 +18,7 @@
   - ![](assets/05.PNG)
 
 ### Log
-- [Log 紀錄](./Log.md)
+- [Log 紀錄](./Docs/Log.md)
 
 ### 參考資源
 - [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api)
